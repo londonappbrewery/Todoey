@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '15.0'
 
 target 'Todoey' do
 
@@ -8,6 +8,6 @@ target 'Todoey' do
 
 pod 'RealmSwift'
 pod 'SwipeCellKit'
-pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
 
 end
